@@ -2,6 +2,7 @@
   background-color: #0099CC;;
   text-align: center;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 .VendingMachine a {
@@ -13,11 +14,12 @@
 }
 
 .VendingMachine a:hover {
-  background-color: black;
+  border-radius: 5px;
+  background-color: rgb(45, 7, 159);
   color: white !important;
 }
 
 .VendingMachine a.active {
   font-weight: bold;
-  color: black;
+  color: rgb(45, 7, 159);
 }
